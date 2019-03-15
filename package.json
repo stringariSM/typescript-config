@@ -1,15 +1,20 @@
 {
   "name": "typescript-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto de Teste",
   "main": "index.js",
   "scripts": {
-    "compile": "node_modules/.bin/tsc"
+    "dev": "node_modules/.bin/nodemon --delay 5 dist/app",
+    "gulp": "node_modules/.bin/gulp"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^5.0.1",
+    "nodemon": "^1.18.10",
     "typescript": "3.3.3333"
   }
 }
